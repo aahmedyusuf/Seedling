@@ -1,0 +1,96 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+.Parent {
+    background-color: rgb(221, 219, 216);
+    position:fixed;
+    height:100%;
+    width: 100%;
+  }
+  
+  .Logo{
+      margin: 10px;
+
+  }
+
+.Account-Info{
+    transition: 1s;
+    background-color: antiquewhite;
+    top:0;
+    left:0;
+
+    width: 70%;
+    height: 100%;
+    position:absolute;
+}
+
+.Image-Section{
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    position:absolute;
+    transition: 1s;
+    background-color: #5ac7fa
+
+}
+.Image-Section:hover{
+    transition: 1s;
+    width: 35%;
+    background-color: #35bfff
+
+
+}
+
+.Login-Form{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.Field{
+    margin: 30px;
+    height: 40px;
+    width: 500px;
+    background-color: rgb(180, 170, 170);
+    border: 0ch;
+    border-radius: 10px;
+    text-align: center;
+    border-style: solid;
+}
+.Field:focus{
+    border-color: coral;
+}
+.Login-Button{
+    margin: 30px;
+    height: 50px;
+    width: 450px;
+    background-color: rgb(130, 252, 242);
+    border: 0ch;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+
+    transition: 1s;
+}
+
+.Login-Button:hover{
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 5px;
+    background-color: rgb(255, 123, 15);
+    height: 60px;
+
+
+
+
+}
